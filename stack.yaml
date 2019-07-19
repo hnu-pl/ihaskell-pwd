@@ -11,7 +11,9 @@
 # See the Dockerfile for the list of packages which are pre-built into the
 # Docker image.
 
-packages: [.]
+packages:
+- .
+
 extra-deps:
 - /opt/IHaskell
 - /opt/IHaskell/ipython-kernel
