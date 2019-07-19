@@ -1,6 +1,9 @@
 ## run this inside docker to install dependencies
 
 # specify space sparated list of packages you need here
+# if you have more than one packages encose them in quotes
+# e.g., DEPS="unbound-generics arrow-extras"
+
 DEPS=unbound-generics
 
 if [ -d "/opt/stack/snapshots" ]; then
