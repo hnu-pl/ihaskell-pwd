@@ -1,6 +1,6 @@
 # ihaskell-pwd
 A pwd directory template for the [crosscompass/ihaskell-notebook](https://github.com/jamesdbrock/ihaskell-notebook) docker image
-with some utility shell scripts.
+with some utility shell scripts to help volume/mount issues.
 
 Assuming there is a running Docker service set up for you, you can use
   * `run.sh` to run the ihaskell-notebook docker image from this directory.
