@@ -1,7 +1,7 @@
 ### uncomment below if you want Jupiter Lab 
 # LAB="--env JUPYTER_ENABLE_LAB=yes"
 
-HOSTPORT=8765
+HOSTPORT=8888
 
 if [ -z "$(ls -A ".snapshots" 2>/dev/null)" ]; then
 	docker run --rm -p $HOSTPORT:8888 \
