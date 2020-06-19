@@ -1,1 +1,1 @@
-rm -rf .snapshots/ .stack-work/
+rm -rf .stack-work/
